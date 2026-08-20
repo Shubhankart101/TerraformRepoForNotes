@@ -130,3 +130,36 @@ This bank contains 120 questions organized by difficulty, covering HCL, state, m
 118. How do you measure Terraform delivery quality?
 119. What are the risks of provisioners?
 120. Design a secure, policy-controlled, multi-cloud Terraform delivery platform.
+
+## HackerRank-Style Terraform Challenges: 121-150
+
+121. Define a typed variable with a default value.
+122. Reject an invalid environment with variable validation.
+123. Create a local map of environment-specific sizes.
+124. Use `for_each` to create one resource per subnet.
+125. Use `count` for optional monitoring resources.
+126. Output resource IDs.
+127. Look up an existing network with a data source.
+128. Create a module with required inputs and outputs.
+129. Create replacements before destroy with lifecycle.
+130. Reject an unencrypted resource with a precondition.
+131. Verify required tags with a postcondition.
+132. Generate firewall rules with a dynamic block.
+133. Flatten nested application configuration.
+134. Configure provider aliases for two Azure subscriptions.
+135. Configure provider aliases for two AWS regions.
+136. Import an existing resource and document state.
+137. Rename a resource with a `moved` block.
+138. Configure an Azure Storage remote backend.
+139. Configure an S3 backend with state locking.
+140. Reject public storage with policy as code.
+141. Require an owner tag with policy as code.
+142. Test invalid module input.
+143. Test a required module output.
+144. Create a CI plan job that never applies automatically.
+145. Create an approval-gated production apply.
+146. Detect drift in a scheduled plan.
+147. Expose a sensitive output safely.
+148. Build Azure and AWS implementations behind one module interface.
+149. Separate platform and workload state.
+150. Build a tested multi-environment module with policy and safe promotion.
