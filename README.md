@@ -12,6 +12,7 @@ A practical Terraform reference library organized by learning level. Examples ar
 
 ## Project-oriented use cases
 
+- [120-question interview bank](interview.md)
 Every project track contains a practical scenario, Terraform design notes, and an advanced implementation direction:
 
 - [Azure use cases](projects/use-cases/azure.md)
