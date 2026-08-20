@@ -20,7 +20,7 @@ Every project track contains a practical scenario, Terraform design notes, and a
 - [Enterprise automation](projects/enterprise-automation)
 - [Observability platform](projects/observability-platform)
 
-The daily use-case index is refreshed at **7:00 AM IST** by [update-project-use-cases.yml](.github/workflows/update-project-use-cases.yml).
+The weekly use-case index is refreshed every Monday at **7:00 AM IST** by [update-project-use-cases.yml](.github/workflows/update-project-use-cases.yml).
 
 Read the current rotation in [projects/DAILY_USE_CASES.md](projects/DAILY_USE_CASES.md). The project folders contain starter Terraform scripts; combine them with the advanced examples for remote state, module composition, validation, and CI/CD.
 

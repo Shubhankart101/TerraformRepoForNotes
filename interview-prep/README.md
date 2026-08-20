@@ -32,6 +32,17 @@ These are interview-style prompts for Terraform, cloud infrastructure, and platf
 - **Enterprise automation:** module contracts, versioning, policy-as-code, drift, and approvals.
 - **Observability platform:** diagnostic settings, SLOs, alert coverage, and ownership metadata.
 
+## SRE and DevOps Engineering questions
+
+1. Define availability, latency, durability, and recovery objectives for the platform you provision.
+2. How would you design error budgets and release policies around infrastructure reliability?
+3. How would you detect Terraform drift, prioritize it, and remediate it without unsafe automation?
+4. How would you design observability for Terraform changes, Azure resources, and deployment pipelines?
+5. How would you reduce infrastructure toil through modules, automation, self-service, and runbooks?
+6. Describe an incident where a deployment caused impact. How would you contain, recover, and prevent recurrence?
+7. How would you design disaster recovery, backup, restore, and regional failover for a critical Azure platform?
+8. How do you review a Terraform plan for security, cost, blast radius, and operational risk?
+
 ## Strong answer checklist
 
 Use this structure: clarify constraints, state assumptions, propose architecture, explain trade-offs, describe failure handling, define security boundaries, identify observability, and finish with rollout or rollback strategy.
