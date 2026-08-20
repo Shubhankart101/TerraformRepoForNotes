@@ -10,6 +10,20 @@ A practical Terraform reference library organized by learning level. Examples ar
 | Intermediate | Azure providers, modules, `for_each`, validation, and environment patterns | [intermediate/01-azure-resource-group](intermediate/01-azure-resource-group) |
 | Advanced | Remote state, reusable platform composition, policy-minded inputs, and CI/CD | [advanced/01-remote-state](advanced/01-remote-state) |
 
+## Project-oriented use cases
+
+Every project track contains a practical scenario, Terraform design notes, and an advanced implementation direction:
+
+- [Web application platform](projects/web-application-platform)
+- [Containerized microservices](projects/containerized-microservices)
+- [Data platform](projects/data-platform)
+- [Enterprise automation](projects/enterprise-automation)
+- [Observability platform](projects/observability-platform)
+
+The daily use-case index is refreshed at **7:00 AM IST** by [update-project-use-cases.yml](.github/workflows/update-project-use-cases.yml).
+
+Read the current rotation in [projects/DAILY_USE_CASES.md](projects/DAILY_USE_CASES.md). The project folders contain starter Terraform scripts; combine them with the advanced examples for remote state, module composition, validation, and CI/CD.
+
 ## Structure
 
 ```text
@@ -25,6 +39,13 @@ advanced/
 	01-remote-state/
 	02-platform-composition/
 	03-github-actions/
+projects/
+	DAILY_USE_CASES.md
+	web-application-platform/
+	containerized-microservices/
+	data-platform/
+	enterprise-automation/
+	observability-platform/
 ```
 
 ## Common commands
