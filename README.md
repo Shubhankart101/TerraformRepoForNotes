@@ -14,6 +14,10 @@ A practical Terraform reference library organized by learning level. Examples ar
 
 Every project track contains a practical scenario, Terraform design notes, and an advanced implementation direction:
 
+- [Azure use cases](projects/use-cases/azure.md)
+- [AWS use cases](projects/use-cases/aws.md)
+- [On-premises use cases](projects/use-cases/on-premises.md)
+
 - [Web application platform](projects/web-application-platform)
 - [Containerized microservices](projects/containerized-microservices)
 - [Data platform](projects/data-platform)
