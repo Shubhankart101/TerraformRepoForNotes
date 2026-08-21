@@ -308,35 +308,65 @@ The precondition blocks the plan or apply when the pipeline approval signal is f
 ## HackerRank-Style Terraform Challenges: 121-150
 
 121. Define a typed variable with a default value.
+**Answer:** Implement the solution with validated inputs, deterministic behavior, clear failure handling, tests, and an example execution command for Terraform.
 122. Reject an invalid environment with variable validation.
+**Answer:** Parse with the platform's structured data tool, validate required fields and types at the boundary, and return a clear nonzero failure for malformed input.
 123. Create a local map of environment-specific sizes.
+**Answer:** Parse with the platform's structured data tool, validate required fields and types at the boundary, and return a clear nonzero failure for malformed input.
 124. Use `for_each` to create one resource per subnet.
+**Answer:** Express the desired state with typed inputs, stable addresses, policy validation, protected state, and a reviewed plan before apply.
 125. Use `count` for optional monitoring resources.
+**Answer:** Parse the input into structured records, use a map or counter for aggregation, sort only when ranking is required, and test empty, duplicate, and boundary inputs.
 126. Output resource IDs.
+**Answer:** Express the desired state with typed inputs, stable addresses, policy validation, protected state, and a reviewed plan before apply.
 127. Look up an existing network with a data source.
+**Answer:** Implement the solution with validated inputs, deterministic behavior, clear failure handling, tests, and an example execution command for Terraform.
 128. Create a module with required inputs and outputs.
+**Answer:** Express the desired state with typed inputs, stable addresses, policy validation, protected state, and a reviewed plan before apply.
 129. Create replacements before destroy with lifecycle.
+**Answer:** Implement the solution with validated inputs, deterministic behavior, clear failure handling, tests, and an example execution command for Terraform.
 130. Reject an unencrypted resource with a precondition.
+**Answer:** Express the desired state with typed inputs, stable addresses, policy validation, protected state, and a reviewed plan before apply.
 131. Verify required tags with a postcondition.
+**Answer:** Implement the solution with validated inputs, deterministic behavior, clear failure handling, tests, and an example execution command for Terraform.
 132. Generate firewall rules with a dynamic block.
+**Answer:** Implement the solution with validated inputs, deterministic behavior, clear failure handling, tests, and an example execution command for Terraform.
 133. Flatten nested application configuration.
+**Answer:** Parse with the platform's structured data tool, validate required fields and types at the boundary, and return a clear nonzero failure for malformed input.
 134. Configure provider aliases for two Azure subscriptions.
+**Answer:** Express the desired state with typed inputs, stable addresses, policy validation, protected state, and a reviewed plan before apply.
 135. Configure provider aliases for two AWS regions.
+**Answer:** Express the desired state with typed inputs, stable addresses, policy validation, protected state, and a reviewed plan before apply.
 136. Import an existing resource and document state.
+**Answer:** Express the desired state with typed inputs, stable addresses, policy validation, protected state, and a reviewed plan before apply.
 137. Rename a resource with a `moved` block.
+**Answer:** Express the desired state with typed inputs, stable addresses, policy validation, protected state, and a reviewed plan before apply.
 138. Configure an Azure Storage remote backend.
+**Answer:** Implement the solution with validated inputs, deterministic behavior, clear failure handling, tests, and an example execution command for Terraform.
 139. Configure an S3 backend with state locking.
+**Answer:** Express the desired state with typed inputs, stable addresses, policy validation, protected state, and a reviewed plan before apply.
 140. Reject public storage with policy as code.
+**Answer:** Express the desired state with typed inputs, stable addresses, policy validation, protected state, and a reviewed plan before apply.
 141. Require an owner tag with policy as code.
+**Answer:** Express the desired state with typed inputs, stable addresses, policy validation, protected state, and a reviewed plan before apply.
 142. Test invalid module input.
+**Answer:** Test the happy path, invalid input, timeout, retry exhaustion, and partial failure with mocks for external systems and an assertion on the final result.
 143. Test a required module output.
+**Answer:** Test the happy path, invalid input, timeout, retry exhaustion, and partial failure with mocks for external systems and an assertion on the final result.
 144. Create a CI plan job that never applies automatically.
+**Answer:** Separate validation, build, promotion, and verification jobs; use immutable artifacts, protected variables or OIDC, and manual approval for production.
 145. Create an approval-gated production apply.
+**Answer:** Implement the solution with validated inputs, deterministic behavior, clear failure handling, tests, and an example execution command for Terraform.
 146. Detect drift in a scheduled plan.
+**Answer:** Implement the solution with validated inputs, deterministic behavior, clear failure handling, tests, and an example execution command for Terraform.
 147. Expose a sensitive output safely.
+**Answer:** Implement the solution with validated inputs, deterministic behavior, clear failure handling, tests, and an example execution command for Terraform.
 148. Build Azure and AWS implementations behind one module interface.
+**Answer:** Express the desired state with typed inputs, stable addresses, policy validation, protected state, and a reviewed plan before apply.
 149. Separate platform and workload state.
+**Answer:** Express the desired state with typed inputs, stable addresses, policy validation, protected state, and a reviewed plan before apply.
 150. Build a tested multi-environment module with policy and safe promotion.
+**Answer:** Parse with the platform's structured data tool, validate required fields and types at the boundary, and return a clear nonzero failure for malformed input.
 
 ## Executable Answers
 
