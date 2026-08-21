@@ -2,6 +2,12 @@
 
 A practical Terraform reference library organized by learning level. Examples are intentionally small, reusable, and designed for future project bootstrapping.
 
+## Companion Terraform Practice Repository
+
+For standalone Terraform exercises covering providers, variables, modules, dependencies, dynamic blocks, feature switches, state, RDS, and advanced configurations, see [Terraform Practice Projects](https://github.com/Shubhankart101/Terraform).
+
+This repository is the structured reference and interview-preparation path; the companion repository is the practical configuration sandbox.
+
 ## Learning path
 
 | Level | Focus | Start here |
