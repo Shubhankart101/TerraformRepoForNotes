@@ -163,3 +163,9 @@ This bank contains 120 questions organized by difficulty, covering HCL, state, m
 148. Build Azure and AWS implementations behind one module interface.
 149. Separate platform and workload state.
 150. Build a tested multi-environment module with policy and safe promotion.
+
+## Executable Answers
+
+- [Beginner answers](interview-answers/beginner.tf): typed variables, validation, locals, and outputs.
+- [Intermediate answers](interview-answers/intermediate.tf): `for_each`, tags, and map outputs.
+- [Advanced answers](interview-answers/advanced.tf): remote state and approval preconditions.
