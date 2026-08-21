@@ -1,60 +1,6 @@
-﻿# Terraform Interview Question Bank
+# Terraform Interview Question Bank
 
 This bank contains 150 questions organized by difficulty, covering HCL, state, modules, cloud platforms, policy, testing, and production delivery.
-
-## Worked Answers
-
-### Beginner: typed variables and validation
-
-**Question:** How do you reject an invalid environment?
-
-```hcl
-variable "environment" {
-	type = string
-	validation {
-		condition     = contains(["dev", "test", "prod"], var.environment)
-		error_message = "environment must be dev, test, or prod"
-	}
-}
-```
-
-Validation fails during planning before an invalid deployment can be applied.
-
-### Intermediate: reusable resource creation
-
-**Question:** How do you create one resource per subnet?
-
-```hcl
-variable "subnets" { type = map(string) }
-
-resource "azurerm_resource_group" "example" {
-	for_each = var.subnets
-	name     = "rg-${each.key}"
-	location = each.value
-}
-```
-
-`for_each` gives stable resource addresses based on map keys, avoiding count-index churn.
-
-### Advanced: approval gate
-
-**Question:** How do you prevent an unapproved production apply?
-
-```hcl
-variable "approved" { type = bool }
-
-resource "terraform_data" "approval_gate" {
-	input = var.approved
-	lifecycle {
-		precondition {
-			condition     = var.approved
-			error_message = "production apply requires approval"
-		}
-	}
-}
-```
-
-The precondition blocks the plan or apply when the pipeline approval signal is false.
 
 ## Beginner: 1-40
 
